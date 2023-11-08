@@ -1,0 +1,440 @@
+.nav-tabs-countries {
+   border-bottom: 5px solid #4286D4 ; 
+   margin: 20px 0 40px;
+}
+
+.nav-link-countries.active {
+    background: #4286D4 0% 0% no-repeat padding-box;
+    border-radius: 7px 7px 0px 0px; 
+    border: none;
+    color: #fff;
+    height: 43px;
+}
+
+.nav-link-countries {
+    width: 146px;
+    height: 38px;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    border-radius: 7px 7px 0px 0px;
+    position: relative;
+    bottom: -5px;
+    cursor: pointer;
+}
+
+.nav-link-countries.active:hover {
+    background: #4286D4 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+.nav-link-countries:hover {
+    background-color: #CECECE;
+}
+
+.nav-link-countries:focus {
+    outline: none;
+}
+
+.img_country {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.img_dep_country {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.img_edit_country {
+    position: relative;
+    top: -3px;
+}
+
+@media only screen and (max-width: 576px) {
+    .space {
+        margin-bottom: 20px;
+    }
+}
+
+.cuads {
+    display: grid;
+    grid-template-columns: auto 1fr 30%;
+    align-items: center;
+}
+
+.ctn_photo {
+    width: fit-content;
+    margin-right: 40px;
+    max-width: 80px;
+}
+
+.ctn_name {
+    margin-right: 20px;
+}
+
+.ctn_ind {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ctn_ind {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .cuads {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .hollow {
+        display: none;
+    }
+    
+    .ctn_name {
+        margin-right: 0;
+    }
+    
+    .ctn_ind {
+        width: 100%;
+    }
+}
+
+.name_country, .abreviature_country, .indicative_country{
+    border-radius: 2px !important;
+    padding: 15px 0 0 20px;
+    height: 48px !important;
+    color: #bfbfbf !important;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    border: none;
+}
+
+.name_country label, .abreviature_country label, .indicative_country label, .selection {
+    color: #bfbfbf;
+}
+
+.inps .select2-container .select2-selection {
+    height: 48px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border: 1px solid #C8C8C8;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    border-radius: 2px;
+}
+
+.inps {
+    color: #bfbfbf !important;
+}
+
+.name_country{
+    box-shadow: 0px 3px 6px #00000012;
+}
+
+.indicative_country {
+    border: 1px solid #C8C8C8;
+    background-color: #fff;
+}
+
+.btn-photo-file {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #023F87;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    position: absolute;
+    left: 70px;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+  
+.btn-photo-file:focus, .close_add_img:focus {
+    outline: none;
+}
+
+.photo-file {
+    position: absolute;
+    opacity: 0;
+    width: 25px;
+    left: 70px;
+    top: -12px;
+    z-index: 1000;
+}
+
+.photo {
+    width: 80px !important;
+    height: 80px !important;
+    border: 3px solid #023F87;
+    border-radius: 50%;
+}
+
+.border_none {
+    border: none !important;
+}
+  
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    /* object-fit: cover; */
+}
+
+
+.img-peque {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.dx-toolbar{  
+    display: none;  
+}  
+
+.dx-overlay-wrapper {
+    z-index: 10 !important;
+}
+
+.input-photo {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+#modal_add_img .modal-dialog, #modal_edit_img .modal-dialog {
+    width: 600px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    height: auto !important;
+}
+
+.img_cuad {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+}
+
+.jcrop-stage {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#preview {
+    display: none;
+}
+
+.close_add_img {
+    position: absolute;
+    top: 5px;
+    z-index: 100;
+    right: 8px;
+    color: #fff;
+}
+
+.dark-cuad, .croppr-overlay, .img_cuad {
+    border-radius: 11px;
+}
+
+.dark-cuad, .croppr, .croppr-image, .croppr-imageClipped {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+}
+
+.select2-selection__arrow {
+    font-size: 1.5rem;
+}
+
+.select2-selection__arrow b {
+    display: none;
+}
+
+.select2-selection__arrow::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f107";
+}
+
+.select2-container--open .select2-selection__arrow::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f106";
+}
+
+.indicative_country .select2-container--bootstrap4 .select2-selection--single .select2-selection__arrow {
+    position: static !important;
+    width: auto !important;
+}
+
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__arrow {
+    top: 5% !important;
+    right: 12px !important;
+}
+
+.inps .select2-container--bootstrap4 .select2-selection--single .select2-selection__arrow {
+    top: 25% !important;
+    right: 12px !important;
+}
+
+.select2-container--bootstrap4.select2-container--focus .select2-selection, .select2-container--bootstrap4.select2-container--open .select2-selection, .inps .act .selection .select2-selection {
+    border: 1px solid var(--blue-color) !important;
+    box-shadow: none !important;
+}
+
+.select2-selection__placeholder {
+    color: #bfbfbf !important;
+}
+
+.form-group .select2 {
+    -webkit-appearance: none;
+}
+
+.dep .label_inp {
+    position: absolute;
+    top: 25%;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    left: 20px;
+}
+
+.flecha_down {
+    position: absolute;
+    top: 25%;
+    right: 12px;
+    font-size: 1.5rem;
+}
+
+.tx-co-bold {
+    font: normal normal 600 18px/25px SemplicitaPro;
+}
+
+.tx-co-normal {
+    font: normal normal normal 16px/22px SemplicitaPro;
+}
+
+.tx-co-italic {
+    font: italic normal normal 16px/22px SemplicitaPro;
+}
+
+.card {
+    border: none;
+}
+
+.unique {
+    border-bottom: 1px solid #DEDEDE !important;
+}
+
+.unique .dd-handle {
+    border: none !important;
+}
+
+.item-list {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card .card-header .item-list.collapsed:after {
+    content: "\f103";
+  }
+
+.card .card-header .item-list:after {
+    content: "\f102";
+    font-family: 'Font Awesome 6 Free';
+    font-size: 1.2rem;
+    color: #4286D4;
+    font-weight: 900;
+}
+
+.ctn-card {
+    width: 100%;
+    max-width: 760px;
+    background: #EDEFF5;
+    padding-top: 1rem !important;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.card_item {
+    padding-bottom: 20px;
+}
+
+.list_items_card {
+    list-style: none;
+}
+  
+.list_items_card li::before {
+    content: "\2022";
+    color: #4286D4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1rem;
+    font-size: 1.2rem;
+}
+
+.dd-item:first-child .dd-handle {
+    border: none !important;
+}
+
+.img_department {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.exam {
+    visibility: hidden;
+    width: 0;
+}
+
+.btn-confirm-img {
+    width: 177px !important;
+}
+
+.inp-file {
+    width: 177px;
+    max-width: 90%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid var(--bg-btn);
+    border-radius: 5px;
+    color: var(--bg-btn);
+    height: 41px;
+    display: inline-block;
+    margin: 0;
+    font: normal normal 600 16px/22px SemplicitaPro !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.65rem 0.75rem;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.inp-file:hover {
+    border-color: var(--blue-hover);
+    color: var(--blue-hover);
+}
+
+.croppr-image {
+    border-radius: 11px;
+}
+
+.select2-selection__clear {
+    margin-left: 5px;
+}

@@ -1,0 +1,503 @@
+@import url('https://use.typekit.net/axs4esb.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'semplicitapro';
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+.ec{
+    text-align: left;
+    font: normal normal 600 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 0rem;
+}
+.chk_left {
+    visibility: hidden;
+    opacity: 0;
+}
+.ecr{
+    text-align: left;
+    font: normal normal normal 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 0rem;
+}
+.title{
+    text-align: left;
+    font: normal normal bold 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.rol_name{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000012;
+    border-radius: 2px;
+    opacity: 1;
+}
+.contenedor{
+    border-bottom: 1px solid #E9E9E9;
+    padding: 10px;
+    border-radius: 4px
+}
+.contenedor2{
+    border-bottom: 1px solid #E9E9E9;
+   
+}
+.contenedor3{
+    height: 54px;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 10px;
+    border-radius: 4px
+   
+}
+.rectag{
+   
+    width: 243px;
+    background: #EDEFF5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 10px 0;
+    max-height: 300px;
+    overflow: auto;
+}
+.lb{
+    text-align: left;
+    font: normal normal bold 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.lb_rol{
+    text-align: left;
+    font: normal normal 600 25px/35px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+}
+.lb_name_rol{
+    text-align: left;
+    font: normal normal bold 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.lb_rol_add{
+
+    text-align: left;
+    font: normal normal bold 25px/35px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+}
+.lb_t{
+    text-align: left;
+    font: normal normal 600 18px/25px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.lb_date{
+    text-align: left;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.span{
+    color: #06CC06;
+}
+.buscar{
+    padding-top: 10px;
+}
+.btnn{
+    background: #4286D4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: transparent;
+    text-align: center;
+    font: normal normal 600 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+.btnn:hover{
+    background: #023f87 0% 0% no-repeat padding-box;
+
+}
+.btnv{
+    width: 154px;
+    height: 41px;;
+
+}
+.btnt{
+    text-align: center;
+    font: normal normal 400 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.content_add_div2_c1{
+    background: #023f87 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    
+
+}
+.lb_input_rol.active{
+    position: absolute;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    top: 0;
+    left: 25px;
+    font-size: 0.7rem;
+    color: #4286D4;
+}
+.lb_input_rol{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    color: #BFBFBF;
+}
+.lb-add-div2-c1{
+    text-align: left;
+    font: normal normal bold 12px/16px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+.lb2-add-div2-c1{
+    text-align: left;
+    font: normal normal bold 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+.sp-list{
+    font: normal normal  15px/10px SemplicitaPro;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #707070;
+
+}
+.sp-list2{
+    font: normal normal  15px/10px SemplicitaPro;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #707070;
+
+}
+.sp_listt{
+    text-align: left;
+    font: normal normal medium 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.content-scroll1{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: clip;
+}
+.cont{
+    padding: 10px;
+}
+
+.contentr-scroll2{
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: clip;
+}
+.contentr-scroll3{
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: clip;
+}
+.cards_pagination_add1{
+    display: none;
+}
+.content_info{
+    width: 459px;
+    height: 109px;
+    margin: 50px auto 50px;
+    background: #4286D4 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+    opacity: 1;
+    text-align: center;
+    padding: 10px auto;
+}
+.card-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 21%);
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.info{
+    width: 236px;
+    text-align: center;
+    font: italic normal 600 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 30px auto;
+}
+.sp-list-link{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font: normal normal  15px/10px SemplicitaPro;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #707070;
+    width: 100%;
+    height: 100%;
+}
+.sp-list-link:hover{
+    color: #79ABE3 ;
+
+}
+.disguise{
+    display:none;
+}
+.icon{
+    font-size: 6rem;
+    background: transparent linear-gradient(180deg, #4185D3 0%, #034189 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.iconn{
+    font-size: 1.5rem;
+    background: #4286D4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.iconst{
+    font-size: 2rem;
+    background: transparent linear-gradient(180deg, #4185D3 0%, #034189 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.modal-add-lb1{
+    text-align: center;
+    font: italic normal bold 25px/35px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #044189;
+    opacity: 1;
+    margin-left: 15px;
+}
+.modal-add-lb2{
+    text-align: center;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.btn-confir{
+    width: 248px;
+    background: #3072BE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+
+}
+
+.unico {
+    border-radius: 10px !important;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    background: #FFC10E 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.text-res {
+    font: normal normal 600 12px/16px SemplicitaPro;
+    margin-bottom: 6px;
+}
+
+.text-res, .text-name, .text-doc, .text-cargo, .text-tl, .text-sub {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #707070;
+    margin: 0;
+}
+
+.text-name {
+    margin-bottom: 2px;
+}
+
+.p-info, .name_es_mod, .text-name, .text-tl {
+    font: normal normal 600 16px/22px SemplicitaPro;
+}
+
+.text-doc {
+    font: normal normal normal 14px/20px SemplicitaPro;
+    margin-bottom: 4px;
+}
+
+.text-cargo {
+    font: italic normal normal 14px/20px SemplicitaPro;
+    color: #4286D4;
+}
+
+.text-tl {
+    margin-bottom: 6px;
+    display: block;
+}
+
+.text-sub {
+    font: normal normal normal 14px/20px SemplicitaPro;
+}
+
+.cards_pagination .paginationjs .cont, select.pageSize, .icons_pagination .paginationjs .cont, .submodules_pagination .paginationjs .cont {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    opacity: 1;
+    text-align: center;
+}
+
+select.pageSize {
+    width: 60px;
+    display: inline-flex;
+    margin: 0 7px;
+    padding: 5px;
+}
+
+.cards_pagination .paginationjs, .icons_pagination .paginationjs, .submodules_pagination .paginationjs {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.cards_pagination .paginationjs .cont, .icons_pagination .paginationjs .cont, .submodules_pagination .paginationjs .cont {
+    width: 56px;
+    height: 23px;
+}
+
+.separate {
+    display: flex;
+    gap: 9px;
+}
+
+.cards_pagination .paginationjs .paginationjs-nav p, .icons_pagination .paginationjs .paginationjs-nav p, .submodules_pagination .paginationjs .paginationjs-nav p {
+    display: flex;
+    align-items: center;
+}
+
+.cards_pagination .paginationjs-pages, .icons_pagination .paginationjs-pages, .submodules_pagination .paginationjs-pages {
+    width: 46px;
+    border-radius: 3px;
+    margin-left: 9px;
+}
+
+.cards_pagination .paginationjs-pages ul, .icons_pagination .paginationjs-pages ul, .submodules_pagination .paginationjs-pages ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #4286D4;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.cards_pagination .paginationjs-pages ul li, .icons_pagination .paginationjs-pages ul li, .submodules_pagination .paginationjs-pages ul li {
+    height: 23px;
+    border: 0 !important;
+    border-radius: 3px;
+}
+
+.cards_pagination .paginationjs-pages ul li a, .icons_pagination .paginationjs-pages ul li a, .submodules_pagination .paginationjs-pages ul li a {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: fit-content !important;
+    color: #fff !important;
+    background-color: #4286D4 !important;
+    border-radius: 3px !important;
+    font-size: 1.2rem !important;
+}
+
+.cards_pagination .paginationjs-pages ul li a:hover, .icons_pagination .paginationjs-pages ul li a:hover, .submodules_pagination .paginationjs-pages ul li a:hover {
+    background-color: #4286D4;
+    border-radius: 3px;
+}
+.modal-open .container-fluid,
+.modal-open .br-pagebody, 
+.modal-open .br-footer,
+.modal-open .pace,
+.modal-open .br-logo,
+.modal-open .sideleft,
+.modal-open .br-header {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.modal-open .modal {
+    background-color: rgb(255 255 255 / 60%);
+}
+
+.modal-backdrop
+{
+    opacity:0 !important;
+}
+
+.select {
+    color: #fff;
+    background-color: #023F87;
+}
+
+.select .sp-list-link {
+    color: #fff;
+}
+.modals{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+}
+.modal_edit{
+    width: 400px;
+    height: 424px;
+}
+.modal_detail{
+    width: 459px;
+
+}

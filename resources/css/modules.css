@@ -1,0 +1,748 @@
+@import url('https://use.typekit.net/axs4esb.css');
+
+:root {
+    --blue-color: #4286D4;
+    --blue-hover: #023F87;
+    --text: #707070;
+    --text-dark: #5D5D5D;
+    --text-light: #bfbfbf;
+    --text-blue: #4286D4;
+    --text-inputs: #BFBFBF;
+    --bg-btn: #3072BE;
+}
+
+body {
+    font-family:"semplicitapro";
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.bg-light-max {
+    background-color: #EFF2F3;
+}
+
+.cards_pagination .paginationjs .cont, select.pageSize, .icons_pagination .paginationjs .cont, .submodules_pagination .paginationjs .cont {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    opacity: 1;
+    text-align: center;
+}
+
+.max_title {
+    font: normal normal 600 22px/30px SemplicitaPro;
+}
+
+.titles {
+    font: normal normal bold 16px/22px SemplicitaPro;
+}
+
+.subtitles {
+    font: normal normal normal 14px/20px SemplicitaPro;
+    margin-bottom: 5px;
+}
+
+select.pageSize {
+    width: 60px;
+    display: inline-flex;
+    margin: 0 7px;
+    padding: 5px;
+}
+
+.content-submodules {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen  and (max-width: 1200px) {
+    .content-submodules {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen  and (max-width: 550px) {
+    .content-submodules {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.icon_module, .icon_contain_detail {
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 50%;
+}
+
+.icon_module {
+    width: 30px;
+    height: 30px;
+    margin-right: 28px;
+}
+
+.icon-card {
+    color: #fff;
+}
+
+.icon_detail {
+    font-size: 1.3rem;
+    padding: 15px;
+    color: #fff;
+}
+
+.search {
+    width: 297px;
+    font: normal normal normal 16px/18px SemplicitaPro;
+}
+
+.br-footer.dtm {
+    display: flex;
+    padding-top: 0 !important;
+}
+
+.cards_pagination .paginationjs, .icons_pagination .paginationjs, .submodules_pagination .paginationjs {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.cards_pagination .paginationjs .cont, .icons_pagination .paginationjs .cont, .submodules_pagination .paginationjs .cont {
+    width: 56px;
+    height: 23px;
+}
+
+.separate {
+    display: flex;
+    gap: 9px;
+}
+
+.cards_pagination .paginationjs .paginationjs-nav p, .icons_pagination .paginationjs .paginationjs-nav p, .submodules_pagination .paginationjs .paginationjs-nav p {
+    display: flex;
+    align-items: center;
+}
+
+.cards_pagination .paginationjs-pages, .icons_pagination .paginationjs-pages, .submodules_pagination .paginationjs-pages {
+    width: 46px;
+    border-radius: 3px;
+    margin-left: 9px;
+}
+
+.cards_pagination .paginationjs-pages ul, .icons_pagination .paginationjs-pages ul, .submodules_pagination .paginationjs-pages ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--blue-color);
+    width: 100%;
+    border-radius: 3px;
+}
+
+.cards_pagination .paginationjs-pages ul li, .icons_pagination .paginationjs-pages ul li, .submodules_pagination .paginationjs-pages ul li {
+    height: 23px;
+    border: 0 !important;
+    border-radius: 3px;
+}
+
+.cards_pagination .paginationjs-pages ul li a, .icons_pagination .paginationjs-pages ul li a, .submodules_pagination .paginationjs-pages ul li a {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: fit-content !important;
+    color: #fff !important;
+    background-color: var(--blue-color) !important;
+    border-radius: 3px !important;
+    font-size: 1.2rem !important;
+}
+
+.cards_pagination .paginationjs-pages ul li a:hover, .icons_pagination .paginationjs-pages ul li a:hover, .submodules_pagination .paginationjs-pages ul li a:hover {
+    background-color: var(--blue-color);
+    border-radius: 3px;
+}
+
+.btn_volver {
+    padding: 10px 50px;
+    background: var(--blue-color) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #fff !important;
+    margin-bottom: 10px;
+    cursor: pointer !important;
+}
+
+.btn:hover, .btn_volver:hover {
+    background-color: var(--blue-hover) !important;
+    color: #fff !important;
+}
+
+.cont_info {
+    height: fit-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contain_detail {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 100%;
+}
+
+.separate_left {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.assign {
+    width: auto;
+}
+
+.cont_submodules {
+    height: 430px;
+    margin-left: 20px !important;
+}
+
+.assign_submodules {
+    margin: 0 0 0 20px !important;
+}
+
+.ctn_btn_modules {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0 0 20px;
+    width: 800px;
+    max-width: 90%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .list {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .contain_detail {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        gap: 30px
+    }
+
+    .assign_submodules {
+        margin: 30px 0 0 !important;
+    }
+
+    .separate_left {
+        margin-left: 0;
+    }
+
+    .cont_submodules {
+        margin-left: 0 !important;
+    }
+
+    .ctn_btn_modules {
+        margin-left: 0;
+    }
+
+    .submodules {
+        height: auto !important;
+        overflow: hidden !important;
+    }
+}
+
+tbody tr:first-child td {
+    border: none;
+}
+
+tbody .unique:first-child td {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.icon_add {
+    font-size: 1.3rem;
+    padding: 15px;
+    margin: 20px 20px;
+    color: #fff;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.module_name {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000012;
+    border-radius: 2px;
+    padding: 0 0 0 20px;
+    height: 48px;
+    width: 100%;
+    color: var(--text-inputs);
+    font: normal normal normal 16px/22px SemplicitaPro;
+    border: 1px solid transparent;
+}
+
+.p-info, .name_es_mod, .text-name, .text-tl {
+    font: normal normal 600 16px/22px SemplicitaPro;
+}
+
+.list_icons {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 450px));
+    grid-gap: 0 40px;
+    padding: 0 0 0 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .list_icons {
+        grid-template-columns: repeat(5, minmax(100px, 450px));
+        grid-gap: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .list_icons {
+        grid-template-columns: repeat(4, minmax(100px, 450px));
+        grid-gap: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .list_icons {
+        grid-template-columns: repeat(3, minmax(100px, 450px));
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .list_icons {
+        grid-template-columns: repeat(2, minmax(100px, 450px));
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .list_icons {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cont_inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    grid-gap: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .cont_inputs {
+        grid-template-columns: 1fr;
+    }
+
+    .actions {
+        height: auto !important;
+        overflow: hidden !important;
+    }
+
+    .cont_info {
+        height: auto !important;
+        overflow: hidden !important;
+    }
+}
+
+.icon_list {
+    background: #EEF3F8 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.icon_list i {
+    font-size: 2.5rem;
+    color: #707070
+}
+
+.icons_in {
+    text-align: center;
+    max-width: 90%;
+    height: fit-content;
+}
+
+.icons_in:hover .icon_list i, .icons_in:hover p{
+    color: #4286D4;
+}
+
+.icons_in:hover .icon_list {
+    border: 1px solid #4286D4;
+}
+
+.icons {
+    height: 315px;
+}
+
+*::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar:vertical {
+    width:12px;
+}
+
+*::-webkit-scrollbar-button:increment,*::-webkit-scrollbar-button {
+    display: none;
+} 
+
+*::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #828282;
+    border-radius: 3px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #E8E8E8;    
+    border-radius: 10px;  
+}
+
+div.mCustomScrollBox {
+    overflow: visible;
+}
+
+.submodules {
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.actions {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.btn-m {
+    height: fit-content;
+    font: normal normal 600 16px/22px SemplicitaPro !important;
+    
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    background: #FFC10E 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.btn_new_sub {
+    background: #4286D4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    color: #fff !important;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font: normal normal 600 14px/20px SemplicitaPro !important;
+}
+
+.btn_new_sub i {
+    font-size: 1.5rem;
+    padding-right: 8px;
+}
+
+.cards_submodules .card-list, .cards_actions .card-list {
+    padding: 15px !important;
+}
+
+.btn_add {
+    background: #4286D4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px transparent;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 !important;
+}
+
+.dtm-icon {
+    font-size: 6rem;
+    background: transparent linear-gradient(180deg, #4185D3 0%, #034189 100%) 0% 0% no-repeat padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-modal {
+    text-align: center;
+    font: italic normal bold 25px/35px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #044189;
+}
+
+.dtm-confirm {
+    text-align: center;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    margin: 30px;
+}
+
+.btn-confirm {
+    max-width: 90%;
+    width: 248px;
+    height: 41px;
+    background: var(--bg-btn);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-confirm:hover {
+    background-color: var(--blue-hover);
+    color: #fff;
+}
+
+.assign_icon {
+    width: 52px;
+    height: 52px;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assign_icon i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cuadro_list {
+    height: 320px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.wd_fijo {
+    width: -webkit-fill-available;
+    margin: 20px 0 0;
+}
+
+.text-res, .text-name, .text-doc, .text-cargo, .text-tl, .text-sub {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #707070;
+    margin: 0;
+}
+
+.text-res {
+    font: normal normal 600 12px/16px SemplicitaPro;
+    margin-bottom: 6px;
+}
+
+.text-name {
+    margin-bottom: 2px;
+}
+
+.text-doc {
+    font: normal normal normal 14px/20px SemplicitaPro;
+    margin-bottom: 4px;
+}
+
+.text-cargo {
+    font: italic normal normal 14px/20px SemplicitaPro;
+    color: #4286D4;
+}
+
+.text-tl {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.text-sub {
+    font: normal normal normal 14px/20px SemplicitaPro;
+}
+
+.unico {
+    border-radius: 10px !important;
+}
+
+.foot {
+    font: italic normal normal 13px/19px SemplicitaPro;
+}
+
+.name_mod {
+    font: normal normal bold 25px/35px SemplicitaPro;
+}
+
+
+#todos + label{
+    color: var(--text-dark);
+}
+
+@media only screen and (max-width: 700px) {
+    .cont_inputs {
+        grid-template-columns: 1fr;
+    }
+
+    .br-footer.dtm {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .ctn_pag {
+        align-self: flex-end;
+    }
+
+    .ft_copy {
+        margin-top: 30px;
+    }
+
+    .cuadro_list {
+        height: auto !important;
+        overflow: hidden !important;
+    }
+
+    .cont_submodules {
+        height: auto !important;
+    }
+}
+
+@media only screen  and (max-width: 450px) {
+    .modal-dialog {
+        height: auto;
+    }
+
+    .search {
+        width: 180px;
+    }
+}
+
+.dd-item .dd-handle {
+    margin: 0;
+    padding: 0;
+    color: #707070;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+    border-top: 1px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.dd-item .dd-handle .items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 16px;
+    margin: 0;
+}
+
+.dd-item .dd-handle span {
+    padding-left: 15px;
+}
+
+.ctn_btn_order {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 15px;
+}
+
+.br-mainpanel {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 60px);
+    justify-content: space-between;
+}
+
+.order_modules {
+    width: 800px;
+    max-width: 90%;
+    margin-top: 20px !important;
+    min-height: auto;
+    height: auto;
+}
+
+.list_modules {
+    max-height: 320px;
+}
+
+.table .dd-item:first-child .dd-handle {
+    border: none;
+}
+
+.table .dd-item.unique:first-child .dd-handle {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.ctn_input {
+    position: relative;
+}
+
+.ctn_input .label_inp {
+    position: absolute;
+    top: 25%;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    left: 20px;
+}
+
+.ctn_input .label_inp.active {
+    font: normal normal 600 12px/16px SemplicitaPro;
+    color: var(--blue-color);
+    top: 5px;
+    left: 10px;
+}
+
+.inp {
+    padding-top: 15px;
+}
+
+.form-control:focus {
+    border: 1px solid var(--blue-color) !important;
+}
+
+.ctn_input .act {
+    border: 1px solid var(--blue-color);
+}
+
+.dis {
+    pointer-events: none;
+    cursor: no-drop;
+}
+
+.modal-open .container-fluid,
+.modal-open .br-pagebody, 
+.modal-open .br-footer,
+.modal-open .pace,
+.modal-open .br-logo,
+.modal-open .sideleft,
+.modal-open .br-header {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.modal-open .modal {
+    background-color: rgb(255 255 255 / 60%);
+}
+
+.modal-backdrop
+{
+    opacity:0 !important;
+}

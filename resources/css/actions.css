@@ -1,0 +1,52 @@
+.action_border {
+    border-left: 1px solid #C8C8C8;
+}
+
+.icon_action_add {
+    font-size: 2.5rem;
+    padding: 15px;
+    color: #fff;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn_action_icons {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.ctn_action_icon {
+    width: 100px;
+    text-align: center;
+    margin: 20px 40px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ctn_action_input {
+    margin: 0 35px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont_action_inputs {
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .ctn_action_icons {
+        grid-template-columns: 1fr;
+    } 
+}
+
+.ctn_action_icons .error_icon {
+    display: flex;
+    justify-content: center;
+}

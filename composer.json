@@ -1,0 +1,9 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "phpmailer/phpmailer": "^6.5",
+        "ipinfo/ipinfo": "^2.3",
+        "phpoffice/phpspreadsheet": "^1.19",
+        "zytzagoo/smtp-validate-email": "^1.0"
+    }
+}

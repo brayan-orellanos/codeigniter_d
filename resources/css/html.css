@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'europa', sans-serif;
+    src: url('resources/css/europa.css');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #707070;
+    background-color: "white";
+
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+.container {
+
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 120px 30px 10px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'vacio menu menu'
+        'main main main'
+        'btn btn btn'
+        'foot foot foot';
+    /* width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2px;
+    grid-auto-rows: 100px;
+    align-items: center;
+    justify-content: center; */
+}
+
+.vacio {
+    grid-area: vacio;
+}
+
+.container_menu {
+    grid-area: menu;
+}
+.container_label_img{
+    display: flex;
+
+}
+
+.contain_main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 30% 1fr auto;
+}
+
+.container_left {
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+    grid-area: btn;
+}
+
+.foot {
+    grid-area: foot;
+}
+
+
+
+a {
+    display: flex;
+    color: #78DB7F;
+
+}
+
+.form {
+    height: fit-content;
+    padding: 30px 30px 0 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border: 1px solid #D9D9D9;
+    border-radius: 17px;
+    opacity: 1;
+
+}
+
+.container_form {
+    display: flex;
+    gap: 15px;
+}
+
+.input,
+.select {
+    margin-bottom: 30px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 26px;
+    opacity: 1;
+    text-align: left;
+    padding: 20px;
+
+}
+
+/*
+.select1 {
+    width: 370px;
+    height: 52px;
+    UI Properties 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 26px;
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.select2 {
+    width: 370px;
+    height: 52px;
+    UI Properties 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #DCDCDC;
+    border-radius: 26px;
+    opacity: 1;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+*/
+
+.container_righ {
+    width: fit-content;
+    padding: 10px 20px 10px 10px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border: 1px solid #D9D9D9;
+    border-radius: 17px;
+    opacity: 1;
+
+}
+
+.label {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+
+
+
+
+}
+
+.div_round {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C5C5C5 0% 0% no-repeat padding-box;
+    fill: #FFFFFF;
+    opacity: 1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 50%;
+    margin: 25px auto;
+    margin-bottom: 30px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #78DB7F 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.container_lower {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+.boton {
+    display: flex;
+    /* width: fit-content; */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    margin-left: 15%;
+    width: 190px;
+    height: 50px;
+    /* UI Properties */
+
+    font: normal normal normal 16px/20px Europa-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-color: #78DB7F;
+    border-style: none;
+    background: #78DB7F 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+
+}
+
+.foot {
+    margin-left: 100px;
+
+}
+
+label {
+    margin-right: 10px;
+
+}
+
+@media screen and (max-width:1150px) {
+    body {
+        width: 95vw;
+        margin: 0 auto;
+
+    }
+    .container{
+        grid-template-areas: 'vacio vacio vacio'
+        'menu menu menu'
+        'main main main'
+        'btn btn btn'
+        'foot foot foot';
+        padding: 0 ;
+        
+    }
+
+    .contain_main {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'logo logo logo'
+            'form form img'
+            'form form img';
+    }
+    .container_left {
+        grid-area: logo;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        grid-area: form;
+    }
+
+    .container_righ {
+        grid-area: img;
+
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        padding: 40px 20px;
+        grid-template-areas: 'vacio vacio vacio'
+            'menu menu menu'
+            'main main main'
+            'btn btn btn'
+            'foot foot foot';
+    }
+
+    .contain_main {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'logo logo logo'
+            'img img img'
+            'form form form';
+    }
+
+    .container_righ {
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .div_round {
+        width: 120px;
+        height: 120px;
+        margin:0;
+    }
+    .form{
+        box-shadow: none;
+        border: none;
+
+    }
+    .container_form{
+        display: block;
+    }
+    .container_menu{
+        margin: 0 30px;
+    }
+
+    .container_left{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+
+    }
+    .boton{
+       justify-content: center;
+       align-items: center;
+
+    }
+    .btn{
+        margin-left: 0;
+        width: 150px;
+
+    }
+    .foot{
+        margin-left: 10px;
+        margin-top: 50px;
+       
+
+    }
+
+
+}

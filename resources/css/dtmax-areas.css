@@ -1,0 +1,548 @@
+.row-areas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.date_area{
+    text-align: left;
+    font: normal normal normal 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.align-items-areas{
+    align-items: self-end;
+    justify-content: flex-end;
+}
+.wd-areas {
+    width: 25px;
+    margin-right: 35px;
+    margin-top: -15px
+}
+.card-box-areas {
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 21%);
+    margin: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    float: left;
+    max-width: 95.7%;
+}
+.card-box-project {
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 21%);
+    margin: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    float: left;
+    height: 464px;
+}
+@media only screen and (max-width: 1366px){
+    .card-box-project  {
+        margin-top: -110px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .card-box-project  {
+        margin-top: 0px;
+    }
+}
+
+.btn_empresa {
+    width: 194px;
+    height: 41px;
+    background: #4286D4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: -10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 1;
+    font: normal normal 400 16px/22px SemplicitaPro !important;
+}
+
+.btn_empresa:hover {
+  background-color: #023F87;
+  color: #fff;
+}
+.empresa-text{
+    text-align: left;
+    font: normal normal 600 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+
+}
+
+.projects-text{
+    text-align: left;
+    font: normal normal 600 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    width: 60%;
+
+}
+
+.search_empresa{
+    height: 47px;
+    width: 100%;
+}
+
+.content_info {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    background: #4286D4 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+    opacity: 1;
+    text-align: center;
+    padding: 10px auto;
+}
+.info {
+    width: 100%;
+    text-align: center;
+    font: italic normal 600 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 30px auto;
+    padding: 20px;
+}
+.contentr-scroll2 {
+    width: 100%;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: clip;
+}
+
+.contentr-scroll2::-webkit-scrollbar {
+  width: 12px;               
+}
+
+.contentr-scroll2::-webkit-scrollbar-track {
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+
+#scroller{
+  top: 55px;
+  left: 60px;
+  width: 97%;
+  height: 220px;
+  padding: 0px 0px 0px 0px ;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  scroll-behavior: smooth;
+}
+#scroller::-webkit-scrollbar {
+  width: 12px;               
+}
+
+#scroller::-webkit-scrollbar-track {
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+}
+.cards_pagination_add1 {
+    display: none;
+}
+
+.card-enterprise {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-bottom: 2px solid #E9E9E9;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    left: 15px;
+    top: 5px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.icon-enterprise {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #00000029;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.icon-enterprise img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 100%;
+    object-fit: cover;;
+
+}
+.name_enterprise{
+    text-align: left;
+    font: normal normal 600 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    float: left;
+
+}
+
+.row-enterprise {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.reason_enterprise{
+    text-align: left;
+    font: normal normal normal 13px/19px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+}
+
+.nit_enterprise{
+    text-align: left;
+    font: italic normal normal 13px/19px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #4286D4;
+    opacity: 1;
+
+
+}
+
+.select {
+    color: #fff;
+    background-color: #023F87;
+    border-radius: 6px;
+}
+
+.select .name_enterprise{
+    color: #FFFFFF;
+}
+.select .reason_enterprise{
+    color: #FFFFFF;
+}
+.select .nit_enterprise{
+    color: #FFFFFF;
+}
+
+.select .iconn{
+    border:  1px solid #023F87
+}
+
+.content-enterprise{
+    color: #fff;
+    background-color: #023F87;
+    border-radius: 6px;
+    height: 60px;
+    font: normal normal 600 14px/20px SemplicitaPro;
+   /* padding: 20px 110px 20px 110px; */
+   text-align: center;
+   padding-top: 20px;
+}
+
+.chk_left:checked{
+    background-color: red;
+
+}
+
+
+.card-box-areas-detail {
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 21%);
+    margin: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    float: left;
+    height: 212px;
+}
+
+.card-box-enterprise {
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 21%);
+    margin: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+@media only screen and (max-width: 1366px){
+    .card-box-areas-detail  {
+        margin-top: -60px;
+    }
+    .card-box-enterprise{
+        margin-top: -60px;
+    }
+    .asiggn_area{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .card-box-areas-detail  {
+        margin-top: 0px;
+    }
+    .card-box-enterprise{
+        margin-top: 0;
+    }
+}
+.name_area{
+    text-align: left;
+    font: normal normal 600 20px/27px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+.nam_area{
+    border-bottom: 2px solid #E9E9E9;
+}
+.creator_text{
+    text-align: left;
+    font: normal normal 600 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-top:10px ;
+    padding-left: 35px;
+
+}
+.creator_name{
+    text-align: left;
+    font: normal normal normal 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-left: 35px;
+}
+
+.creator_date{
+    text-align: left;
+    font: normal normal normal 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-left: 35px;
+
+}
+
+.card-enterprise-detail {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-bottom: 2px solid #E9E9E9;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    left: 15px;
+    top: 35px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.card-project-detail{
+    background: #EDEFF5 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    margin: auto;
+    width: 75%;
+    display: none;
+}
+
+
+.project_name{
+    display: list-item;
+    text-align: left;
+    font: normal normal normal 16px/22px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.project_name::marker{
+    opacity: 1;
+    color: #4286D4;
+    font-size: 25px;
+
+}
+
+.row-project-detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 27px;
+    padding-left: 51px;
+}
+#ver_project {
+    width: 21px;
+    height: 21px;
+    opacity: 1;
+    color: #4286D4;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+.asiggn_area{
+    text-align: left;
+    font: normal normal 600 14px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #023F87;
+    opacity: 1;
+    width: 100%;
+}
+
+.select .asiggn_area{
+    color: #FFFFFF;
+}
+
+.align-items-check {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.enterprise_none{
+    padding-top: 20px;
+    position: relative;
+    text-align: left;
+    font: normal normal normal 16px/20px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+@media only screen and (max-width: 992px){
+    .card-project-detail{
+        width: 100%;
+    }
+
+}
+
+.search_list1{
+    padding: 0.65rem;
+}
+
+.search_list2{
+    padding: 0.65rem;
+}
+
+.search_list1::placeholder{
+    color: #BFBFBF;
+    font: normal normal normal 16px/18px Ubuntu;
+}
+
+.search_list2::placeholder{
+    color: #BFBFBF;
+    font: normal normal normal 16px/18px Ubuntu;
+}
+
+.card-list .nam_areas {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    width: 100%;
+    font: normal normal 600 16px/22px SemplicitaPro;
+}
+
+.pd-l-27 {
+    padding-left: 27px;
+}
+.pd-t-17 {
+    padding-top: 17px;
+}
+
+.iconn-enterprise {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+    margin-top: -50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #00000029;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.dtm-areas {
+    display: flex;
+    padding-left: 30px;
+    /* padding-top: 0 !important; */
+    height: fit-content;
+    margin-top: -45px;
+}
+
+.project-text{
+    text-align: left;
+    font: italic normal normal 12px/16px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.total-projects{
+    text-align: left;
+    font: italic normal normal 12px/16px SemplicitaPro;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+#btn-confirm-area {
+    max-width: 100%;
+    width: 177px;
+    height: 41px;
+    background: #3072BE 0% 0% no-repeat padding-box;
+    border: #3072BE;
+    border-radius: 5px;
+    color: #fff;
+    font: normal normal 600 16px/22px SemplicitaPro !important;
+    cursor: pointer;
+}
+
+#btn-confirm-area:hover {
+  background-color: #023F87;
+  color: #fff;
+}
+
+#btn-edit-area {
+    max-width: 100%;
+    width: 177px;
+    height: 41px;
+    background: #3072BE 0% 0% no-repeat padding-box;
+    border: #3072BE;
+    border-radius: 5px;
+    color: #fff;
+    font: normal normal 600 16px/22px SemplicitaPro !important;
+    cursor: pointer;
+}
+
+#btn-edit-area:hover {
+  background-color: #023F87;
+  color: #fff;
+}

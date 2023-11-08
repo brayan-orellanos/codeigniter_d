@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trabajandofet/dev/
+    - /bin/cp index.php $DEPLOYPATH
